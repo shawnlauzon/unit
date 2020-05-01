@@ -30,7 +30,7 @@ dependencies:
 Install the package from the command line:
 
 ```
-$ flutter pub get
+$ pub get
 ```
 
 ### 3. Import it
