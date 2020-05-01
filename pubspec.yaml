@@ -1,6 +1,6 @@
 name: unit
 description: "Three types: Angle, HourAngle, and Time, useful in astronomy applications."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/shawnlauzon/unit
 
 environment:
