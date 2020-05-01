@@ -22,7 +22,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  unit: ^1.0.0
+  unit: ^1.0.1
 ```
 
 ### 2. Install it
