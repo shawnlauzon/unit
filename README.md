@@ -1,6 +1,9 @@
 # Unit
 
-Four types: Angle, HourAngle, RA, and Time, useful in astronomy applications.
+Three types: Angle, HourAngle, and Time, useful in astronomy applications.
+
+This is a Dart port of the original Go library created by Sonia Keys and hosted at
+github.com/soniakeys/unit. 
 
 These types are all angle-like types.  The Time type is at least angle-related.
 It has conversions to and from the other types and has a function to wrap a
@@ -8,39 +11,35 @@ Time value to the fractional part of a day.
 
 ## Motivation
 
-This package supports two other packages, github.com/soniakeys/sexagesimal and
-github.com/soniakeys/meeus.  The sexagesimal package adds formatting to the
-four types defined here.  The meeus package implements a large colection of
+This package supports github.com/shawnlauzon/meeus, which implements a large colection of
 astronomy algorithms.
 
 ## Install
 
-### Go get
+### 1. Depend on it
 
-Technically, `go get github.com/soniakeys/unit` is sufficient as usual.
+Add this to your package's pubspec.yaml file:
 
-The tests also require the sexagesimal package, so use the -t option to prompt
-`go get` to find it as a test dependency:
+```yaml
+dependencies:
+  unit: ^1.0.0
+```
 
-    go get -t github.com/soniakeys/unit
+### 2. Install it
 
-### Vgo
+Install the package from the command line:
 
-Experimentally, you can try [vgo](https://research.swtch.com/vgo).
+```
+$ flutter pub get
+```
 
-To run package tests, clone the repository -- anywhere! it doesn't have to
-be under GOPATH -- and from the cloned directory run
+### 3. Import it
 
-    vgo test
+Add to your dart code:
 
-Vgo will fetch the sexagesimal test dependency as needed and run the unit
-package tests.
-
-### Or don't install it
-
-If you only need `unit` as dependency of some other package that you are
-installing, the normal installation of that package will likely install `unit`
-for you.  Try that first.
+```dart
+import 'package:unit/unit.dart'
+```
 
 ## License
 
