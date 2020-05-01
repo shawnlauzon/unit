@@ -1,5 +1,5 @@
 name: unit
-description: A set of types useful in astronomy applications
+description: "Three types: Angle, HourAngle, and Time, useful in astronomy applications."
 version: 1.0.0
 homepage: https://github.com/shawnlauzon/unit
 
