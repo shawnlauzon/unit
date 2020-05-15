@@ -127,7 +127,8 @@ void main() {
 
     test('ExampleAngle_Time', () {
       final a = Angle.fromDeg(-30);
-      expect(a.time(), Time.fromHour(2));
+      expect(a, Angle.fromSexa(0, -30, 0, 0));
+      expect(a.time(), Time.fromHour(-2));
     });
   });
 

@@ -351,7 +351,7 @@ class Time {
   // ---------- Standard overrides: ----------
 
   @override
-  bool operator ==(other) => other is Time && sec >= other.sec;
+  bool operator ==(other) => other is Time && sec == other.sec;
 
   @override
   int get hashCode => sec.hashCode;
