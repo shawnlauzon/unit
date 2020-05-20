@@ -116,13 +116,13 @@ class Angle {
   Angle mod1() => Angle(rad % (2 * math.pi));
 
   /// Returns the trigonometric sine of this angle.
-  double sin() => math.sin(rad);
+  num sin() => math.sin(rad);
 
   /// Returns the trigonometric cosine of this angle.
-  double cos() => math.cos(rad);
+  num cos() => math.cos(rad);
 
   /// Returns the trigonometric tangent of this angle.
-  double tan() => math.tan(rad);
+  num tan() => math.tan(rad);
 
   /// Returns the absolute value of this angle.
   Angle abs() => Angle(rad.abs());
@@ -217,13 +217,13 @@ class HourAngle {
   HourAngle div(num f) => HourAngle(rad / f);
 
   /// Returns the trigonometric sine of this angle.
-  double sin() => math.sin(rad);
+  num sin() => math.sin(rad);
 
   /// Returns the trigonometric cosine of this angle.
-  double cos() => math.cos(rad);
+  num cos() => math.cos(rad);
 
   /// Returns the trigonometric tangent of this angle.
-  double tan() => math.tan(rad);
+  num tan() => math.tan(rad);
 
   /// Returns the absolute value of this angle.
   HourAngle abs() => HourAngle(rad.abs());

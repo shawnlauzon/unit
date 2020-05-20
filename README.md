@@ -16,30 +16,7 @@ astronomy algorithms.
 
 ## Install
 
-### 1. Depend on it
-
-Add this to your package's pubspec.yaml file:
-
-```yaml
-dependencies:
-  unit: ^1.0.1
-```
-
-### 2. Install it
-
-Install the package from the command line:
-
-```
-$ pub get
-```
-
-### 3. Import it
-
-Add to your dart code:
-
-```dart
-import 'package:unit/unit.dart'
-```
+See installation instructions on [pub.dev](https://pub.dev/packages/unit#-installing-tab-)
 
 ## License
 
